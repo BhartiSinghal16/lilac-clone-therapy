@@ -1,0 +1,31 @@
+@import "tailwindcss";
+
+:root {
+  --color-primary: #1F3A5F;
+  --color-secondary: #F4EDE4;
+  --color-accent: #C58C6D;
+  --color-text: #1A1A1A;
+}
+
+body {
+  color: var(--color-text);
+  background: white;
+}
+html {
+  scroll-behavior: smooth;
+}
+@keyframes fadeUp {
+  from {
+    opacity: 0;
+    transform: translateY(40px);
+  }
+  to {
+    opacity: 1;
+    transform: translateY(0);
+  }
+}
+
+.fade-up {
+  animation: fadeUp 0.8s ease-out both;
+}
+
