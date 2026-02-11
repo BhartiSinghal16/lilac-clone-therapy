@@ -6,7 +6,7 @@ export default function Navbar() {
 
   return (
     <nav className="w-full bg-white border-b sticky top-0 z-50 shadow-sm">
-      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6">
+      <div className="max-w-6xl mx-auto flex justify-between items-center py-4 px-4 sm:px-6 md:px-8">
 
         <h1 className="text-lg font-serif text-[var(--color-primary)]">
           Dr. Maya Reynolds

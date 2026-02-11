@@ -2,7 +2,7 @@ export default function Hero() {
   return (
     <section
       id="home"
-      className="scroll-mt-24 min-h-[80vh] bg-[var(--color-secondary)] flex items-center px-4 sm:px-6"
+      className="pt-24 min-h-[80vh] bg-[var(--color-secondary)] flex items-center px-4 sm:px-6"
     >
       <div className="max-w-6xl mx-auto grid md:grid-cols-2 gap-16 items-center">
         <div>
